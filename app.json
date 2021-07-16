@@ -1,33 +1,5 @@
 {
 	"env": {
-		"API_ID": {
-			"description": "Get this value from https://my.telegram.org",
-                        "required": false
-		},
-		"API_HASH": {
-			"description": "Get this value from https://my.telegram.org",
-                        "required": false
-		},
-		"DATABASE_URL": {
-			"description": "Mongodb url from https://cloud.mongodb.com/, guide: https://del.dog/mongodb_guide",
-                        "required": false
-		},
-		"HEROKU_APP_NAME": {
-			"description": "Given app name to the Heroku App",
-                        "required": false
-		},
-		"LOG_CHANNEL_ID": {
-			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !",
-                        "required": false
-		},
-		"HEROKU_API_KEY": {
-			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
-			"required": false
-		},
-		"HU_STRING_SESSION": {
-			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`",
-			"required": false
-		},
 		"BOT_TOKEN": {
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
 			"required": false
